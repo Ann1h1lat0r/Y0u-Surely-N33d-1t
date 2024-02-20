@@ -1,8 +1,5 @@
 from scapy.all import *
-import os
-import sys
-import threading
-import signal
+
 
 ports = [21, 22, 23, 25, 53, 80, 443, 445, 443, 8080, 8443]
 
